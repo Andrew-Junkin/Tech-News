@@ -1,0 +1,26 @@
+{
+  "name": "tech-news",
+  "version": "1.0.0",
+  "description": "CMS using Sequelize, JavaScript, and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "homepage": "https://github.com/Andrew-Junkin/Tech-News",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.6",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.22.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
